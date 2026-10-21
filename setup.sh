@@ -5,7 +5,7 @@ cd /workspaces/capstone-codespace
 if [[ ! -f "/home/vscode/.ssh/id_rsa" ]]; then
     ssh-keygen
     echo "New public key created."
-    echo "Add this to your GitLab account for git access."
+    echo "Add this to your GitLab account for git access: https://gitlab.com/-/user_settings/ssh_keys"
     echo "Then rerun this script."
     echo ""
     cat /home/vscode/.ssh/id_rsa.pub
